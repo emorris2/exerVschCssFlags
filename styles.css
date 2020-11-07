@@ -1,0 +1,116 @@
+div {
+    height: 300px;
+    width: 500px;
+    
+}
+
+.flag {
+    outline: 2px solid black;
+    position: relative;
+}
+
+.flag div{
+    position: absolute;
+    width: 100%;
+}
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+.black {
+    background-color: black;
+}
+.yellow {
+    background-color: yellow;
+}
+.white {
+    background-color: white;
+}
+.green {
+    background-color: green;
+}
+.light-blue {
+    background-color: #006aa7;
+}
+.orange {
+    background-color: darkorange;
+}
+.circle {
+    border-radius: 50%;
+}
+
+#france .blue {
+    width: 33%;
+}
+
+#france .white {
+    width: 33%;
+    left: 33%;
+}
+#france .red {
+    width:33%;
+    right:0;
+}
+
+#germany .black{
+    height: 33%;
+}
+
+#germany .yellow{
+    height: 34%;
+    top:66%
+}
+#germany .red{
+    height: 33%;
+    top: 33%;
+}
+
+#madagascar .white{
+    width: 33%;
+}
+
+#madagascar .red{
+    left: 33%;
+    height: 50%;
+    width: 67%;
+}
+
+#madagascar .green{
+    left: 33%;
+    height: 50%;
+    top: 50%;
+    width: 67%;
+}
+
+#switzerland {
+    width: 300px;
+}
+#switzerland .xcross{
+    width: 150px;
+    height: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#switzerland .ycross{
+    width: 50px;
+    height: 150px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#sweden .xcross{
+    height: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+#sweden .ycross{
+    width: 60px;
+    left: 30%;
+}
